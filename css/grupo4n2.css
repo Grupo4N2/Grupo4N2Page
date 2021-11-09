@@ -44,7 +44,7 @@ h2 {
 	font-size: 18px;
 	margin: 0px;
 	text-align:center;
-	color: #FFFFFF;
+	color: #000000;
 }
 
 h3 {
@@ -55,8 +55,9 @@ h3 {
 }
 
 h4 {
-	color: #F47D31;
-	background-color: #fff;	
+	color: #FFFFFF;
+	text-align: center;
+	margin: 4px;
 }
 
 img {
@@ -163,10 +164,15 @@ footer {
 	padding: 15px;
 }
 
-footer h2 {
-	font-size: 14px;
+footer h2 {	
 	color: #000000;
+	font-size: 13px;
+}
+
+ol{	
 	font-size: 12px;
+	margin: 0px;
+	text-align:justify;
 }
 
 
