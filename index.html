@@ -15,6 +15,8 @@
     <!-- Inserindo o Speech-4N2 em um site -->
     <iframe id="plugin" name="plugin" scrolling="No" src="https://grupo4n2.github.io/windowSpeech4N2.html"></iframe>
     <iframe id="configuracoes" name="configuracoes" scrolling="No" src="https://grupo4n2.github.io/configuracoes.html"></iframe>
+    <button id="botaoHabilitaPlugin" onclick="parent.habilitaPlugin(), parent.capturaTexto()"></button>
+    <input type="hidden" id="acao">
     <style>
         #botaoHabilitaPlugin {
             width: 48px;
@@ -57,7 +59,7 @@
     <header id="Principal">
         <h1>Projeto Integrador VIII</h1>
         <h4>Polo Heliópolis - Grupo 4N2</h4>
-    </header>
+
 
     <div id="container">
 
@@ -157,7 +159,7 @@
             <em>Todos os Direitos Reservados &COPY; 2021</em>
         </footer>
     </div>
-
+</header>
 </body>
 
 </html>
