@@ -41,7 +41,7 @@ h1 {
 }
 
 h2 {
-	font-size: 18px;
+	font-size: 18x;
 	margin: 0px;
 	text-align:center;
 	color: #000000;
@@ -131,6 +131,10 @@ article h1 {
 	font-size: 18px;
 }
 
+article h2 {
+	font-size: 16px;
+}
+
 	
 aside {
 	display:block;
@@ -168,10 +172,17 @@ footer h2 {
 	font-size: 13px;
 }
 
+strong{
+	color: #000000;
+	text-align: center;
+}
+
 ol{	
 	font-size: 12px;
 	margin: 0px;
 	text-align:justify;
+	color: #000000;
+	margin-bottom: 5px;
 }
 
 
