@@ -210,7 +210,7 @@ a:hover {
 #botaoHabilitaPlugin {
     width: 48px;
     height: 48px;
-    background-image: url("/images/som.jpg");
+    background-image: url("https://valdevirmrib.github.io/SpeechNet/images/som.jpg");
     background-repeat: no-repeat;
     background-size: 48px;
     float: right;
