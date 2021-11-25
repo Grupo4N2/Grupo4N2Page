@@ -1,4 +1,4 @@
-/* html5 css file, Copyright � Pro HTML5 Programming */
+/* Baseado em: html5 css file, Copyright � Pro HTML5 Programming */
 
 body {
 	background-color:#CCCCCC;
@@ -195,4 +195,26 @@ a:hover {
 	text-decoration: underline;
 }
 
+.pluginIframe {
+    border: solid;
+    border-radius: 10px;
+    border-color: var(--corHeader-Footer-Nav);
+    position: fixed;
+    top: 32vw;
+    left: 75vh;
+    height: 28vh;
+    width: 40vw;
+    visibility: hidden;
+}
 
+#botaoHabilitaPlugin {
+    width: 48px;
+    height: 48px;
+    background-image: url("images/som.jpg");
+    background-repeat: no-repeat;
+    background-size: 48px;
+    float: right;
+    position: relative;
+    left: 0px;
+    margin-top: 5px;
+}        
